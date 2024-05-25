@@ -1,0 +1,85 @@
+[
+  {
+    "id": "curso01",
+    "titulo": "CONTRATOS TRADICIONALES VS CONTRATOS COLABORATIVOS",
+    "precio": 399,
+    "imagen": "./assets/producto01.jpg"
+  },
+
+  {
+    "id": "curso02",
+    "titulo": "IMPLEMENTACIÓN DE OFICINAS DE PROYECTOS EN ENTIDADES PÚBLICAS",
+    "precio": 399,
+    "imagen": "./assets/producto02.jpg"
+  },
+
+  {
+    "id": "curso03",
+    "titulo": "ASOCIACIÓN PÚBLICO-PRIVADAS: FUNDAMENTOS LEGALES Y PROCESOS",
+    "precio": 399,
+    "imagen": "./assets/producto03.jpg"
+  },
+
+  {
+    "id": "curso04",
+    "titulo": "ADICIONALES, REDUCCIONES, AMPLIACIONES DE PLAZO",
+    "precio": 399,
+    "imagen": "./assets/producto04.jpg"
+  },
+
+  {
+    "id": "curso05",
+    "titulo": "ANÁLISIS DE DEMORAS DE CRONOGRAMAS (FSA)",
+    "precio": 399,
+    "imagen": "./assets/producto05.jpg"
+  },
+
+  {
+    "id": "curso06",
+    "titulo": "ANULACIÓN Y EJECUCIÓN DE LAUDOS ARBITRALES",
+    "precio": 399,
+    "imagen": "./assets/producto06.png"
+  },
+
+  {
+    "id": "curso07",
+    "titulo": "CONDUCCIÓN EFICIENTE DE ARBITRAJES DE CONSTRUCCION",
+    "precio": 399,
+    "imagen": "./assets/producto07.png"
+  },
+
+  {
+    "id": "curso08",
+    "titulo": "ADMINISTRACION CONTRACTUAL Y GESTIÓN DE CONTROVERSIAS",
+    "precio": 399,
+    "imagen": "./assets/producto08.jpg"
+  },
+
+  {
+    "id": "curso09",
+    "titulo": "FIDIC LIBRO AMARILLO CONTRATOS INTERNACIONALES DE CONSTRUCCIÓN",
+    "precio": 399,
+    "imagen": "./assets/producto09.png"
+  },
+
+  {
+    "id": "curso10",
+    "titulo": "PERITAJES TÉCNICOS EN ARBITRAJES DE CONSTRUCCIÓN",
+    "precio": 399,
+    "imagen": "./assets/producto10.jpg"
+  },
+
+  {
+    "id": "curso11",
+    "titulo": "ARBITRAJES COMPLEJOS DE CONSTRUCCIÓN",
+    "precio": 399,
+    "imagen": "./assets/producto11.png"
+  },
+
+  {
+    "id": "curso12",
+    "titulo": "EL MODELO FIDIC LIBRO PLATA Y EL MODELO NEC OPCIÓN F",
+    "precio": 399,
+    "imagen": "./assets/producto12.png"
+  }
+]

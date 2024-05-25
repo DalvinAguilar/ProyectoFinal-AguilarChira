@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --primary-font: "Montserrat Alternates", serif;
+  --secondary-font: "Roboto Mono", sans-serif;
+
+  --primary-color: #f7941d;
+  --secundary-color: #274597;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--primary-font);
+}
+
+p {
+  font-family: var(--secondary-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-navbar-bg {
+  background: var(--primary-color);
+}
+
+.custom-img-logo {
+  width: 8rem;
+}
+
+.cart-bg {
+  background-color: var(--secundary-color);
+}
+
+.copyright {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: var(--primary-color);
+}
+
+.card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: var(--secundary-color);
+}
+
+h3,
+h5 {
+  font-weight: 600;
+}
+h3 {
+  font-size: 1rem;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+.image-item img {
+  width: 75px;
+}
+.product-title {
+  font-size: 10px;
+  font-weight: 500;
+}
+.price {
+  font-weight: 600;
+}
+
+.itemsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.totalPrice {
+  padding: 15px 0;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+  background-color: var(--secundary-color);
+}
+
+.buy {
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  width: 50%;
+  background-color: var(--primary-color);
+}
+
+.item-counter {
+  color: white;
+  padding-left: 5px;
+}
+
+.btn-buy {
+  background-color: var(--primary-color);
+  border: 0;
+  padding: 15px 0;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}

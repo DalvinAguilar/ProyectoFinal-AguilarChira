@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda MayoEd</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <!-- TOASTIFY JS CSS  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar custom-navbar-bg">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="custom-img-logo"
+              src="./assets/MayoEd_LOGOWEB.png"
+              alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler cart-bg"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="#f7941d"
+              class="bi bi-cart"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" /></svg
+            ><span class="item-counter" id="item-counter">0</span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Carrito</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- ESPACIO PARA CARRITO Y PRODUCTOS -->
+              <div class="itemsList" id="itemList">
+                <div class="cart-wrapper"></div>
+              </div>
+              <!-- SECCION CHECKOUT -->
+              <div class="wrapper">
+                <div class="totalPrice">Total $<span id="totalPrice"></span></div>
+                <div class="buy">
+                  <button class="btn-buy" id="buyItems">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="text-center mt-5">Cursos disponibles</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5" id="listProducts"></div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h5>&copy;2024, Dalvin Aguilar. Todos los derechos reservados.</h5>
+      </div>
+    </footer>
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <!-- SWEET ALERT2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- TOASTIFY JS  -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- CUSTOM JS -->
+    <script src="./app/app.js"></script>
+  </body>
+</html>
